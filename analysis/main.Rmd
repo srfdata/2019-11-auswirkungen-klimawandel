@@ -34,7 +34,7 @@ if (R_version != paste0(version$major, ".", version$minor)){
 
 ## Vorbemerkungen
 
-Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage des auf srf.ch veröffentlichten Artikel [XYZ](https://www.srf.ch/data) ist.
+Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage des auf srf.ch veröffentlichten Artikel [Diesen Effekt hat der Klimawandel auf Ihren Wohnort](https://www.srf.ch/news/schweiz/so-ist-die-schweiz-betroffen-diesen-effekt-hat-der-klimawandel-auf-ihren-wohnort) ist.
 
 SRF Data legt Wert darauf, dass die Datenvorprozessierung und -Analyse nachvollzogen und überprüft werden kann. SRF Data glaubt an das Prinzip offener Daten, aber auch offener und nachvollziehbarer Methoden. Zum anderen soll es Dritten ermöglicht werden, auf dieser Vorarbeit aufzubauen und damit weitere Auswertungen oder Applikationen zu generieren. 
 
@@ -100,14 +100,15 @@ Für jede, der 2212 Gemeinden wird eine JSON-Datei generiert mit allen nötigen 
 
 [Die Daten des interaktiven Artikel stammen hauptsächlich von den «Klimaszenarien CH2018»](https://www.nccs.admin.ch/nccs/de/home/materialien-und-daten/daten/ch2018---klimaszenarien-fuer-die-schweiz.html), die im November 2018 veröffentlicht wurden (CH2018 Project Team (2018): CH2018 - Climate Scenarios for Switzerland. 
 National Centre for Climate Services. doi: 
-10.18751/Climate/Scenarios/CH2018/1.0). Die «Klimaszenarien CH2018» sind Simulationen mit insgesamt 21 verschiedenen Computermodellen, die am EURO-CORDEX («Coordinated Regional Climate Downscaling Experiment – European Domain») betrieben werden. Das Projekt wird vom Weltklimaforschungsprogramm (WRCP) gesponsert.
+10.18751/Climate/Scenarios/CH2018/1.0). Grundlage bilden Simulationen mit insgesamt 21 verschiedenen Computermodellen, die an europäischen Forschungsinstitutionen – koordiniert durch das Projekt EURO-CORDEX – betrieben werden. Das Projekt EURO-CORDEX ist eine Initiative des WCRP.
+
 Die regionalen Klimasimulationen berücksichtigen drei verschiedene Szenarien, je nach Entwicklung der Treibhausgasemissionen:
 
 Die regionalen Klimasimulationen berücksichtigen drei verschiedene Szenarien, je nach Entwicklung der Treibhausgasemissionen:
 
 * Kein Klimaschutz (RCP8.5): Die klimawirksamen Emissionen nehmen stetig zu (hier verwendet als «pessimistisches Szenario»)
 
-* Konsequenter Klimaschutz (RCP2.6): Der Anstieg der Treibhausgase in der Atmosphäre kann bis in 20 Jahren gestoppt werden (hier verwendet als «optimistisches Szenario»)
+* Konsequenter Klimaschutz (RCP2.6): Durch rasche und drastische Senkungen des Treibhausgasausstosses kann bis in 20 Jahren der Anstieg der Treibhausgase in der Atmosphäre gestoppt werden (hier verwendet als «optimistisches Szenario»). Damit lassen sich die Ziele des Pariser Klimaabkommens von 2015 wahrscheinlich erreichen und die globale Erwärmung auf zwei Grad Celsius gegenüber dem vorindustriellen Zustand begrenzen.
 
 * Begrenzter Klimaschutz (RCP4.5): Eine mittlere Entwicklung mit begrenztem Klimaschutz (hier nicht verwendet)
 
