@@ -2,7 +2,7 @@
 
 ## Vorbemerkungen
 
-Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage des auf srf.ch veröffentlichten Artikel [XYZ](https://www.srf.ch/data) ist.
+Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage des auf srf.ch veröffentlichten Artikel [Diesen Effekt hat der Klimawandel auf Ihren Wohnort](https://www.srf.ch/news/schweiz/so-ist-die-schweiz-betroffen-diesen-effekt-hat-der-klimawandel-auf-ihren-wohnort) ist.
 
 SRF Data legt Wert darauf, dass die Datenvorprozessierung und -Analyse nachvollzogen und überprüft werden kann. SRF Data glaubt an das Prinzip offener Daten, aber auch offener und nachvollziehbarer Methoden. Zum anderen soll es Dritten ermöglicht werden, auf dieser Vorarbeit aufzubauen und damit weitere Auswertungen oder Applikationen zu generieren. 
 
